@@ -38,6 +38,15 @@
   margin: 2.5rem;
 }
 
+.LazyLoad {
+  filter: blur(10px);
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  filter: blur(0);
+}
+
 @media screen and (max-width:  1024px) {
   .portfolio__container{
     grid-template-columns: 1fr 1fr;

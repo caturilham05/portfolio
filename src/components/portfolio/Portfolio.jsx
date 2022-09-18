@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import {datas} from '../../data/Data'
+import LazyLoad from 'react-lazy-load';
 
 const Portfolio = () => {
 	return (
@@ -11,17 +12,18 @@ const Portfolio = () => {
 				{
 					datas.map((v, k) => {
 						const url = window.location.href
-						console.log(v)
 						return (
-							<div className="portfolio__template" key={k}>
-								<img src={v.image} alt={v.title} />
-								<div className="portfolio__title">
-									<h3 style={{ textAlign: 'center'}}>{v.title}</h3>
+								<div className="portfolio__template" key={k}>
+							    <LazyLoad>
+										<img src={v.image} alt={v.title}/>
+									</LazyLoad>
+									<div className="portfolio__title">
+										<h3 style={{ textAlign: 'center', fontSize: '1rem'}}>{v.title}</h3>
+									</div>
+									<div className="portfolio__link">
+										<a href={v.url} className="btn btn-primary" target="_blank" rel="noreferrer"><h5>Visit Website</h5></a>
+									</div>
 								</div>
-								<div className="portfolio__link">
-									<a href={v.url} className="btn btn-primary" target="_blank"><h5>Visit Website</h5></a>
-								</div>
-							</div>
 						)
 					})
 				}

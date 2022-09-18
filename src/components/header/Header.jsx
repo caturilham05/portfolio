@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderSocials from './HeaderSocials.jsx'
 import Profile from '../../assets/me.png'
 import './header.css'
+import LazyLoad from 'react-lazy-load';
 
 const Header = () => {
 	return (
@@ -14,7 +15,9 @@ const Header = () => {
 						<h5 className="text-light">Website Developer</h5>
 						<HeaderSocials />
 						<div className="profile">
-							<img src={Profile} alt="profile" className="profile__img"/>
+					    <LazyLoad>
+								<img src={Profile} alt="profile" className="profile__img"/>
+					    </LazyLoad>
 						</div>
 					</div>
 				</div>

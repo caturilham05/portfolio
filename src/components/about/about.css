@@ -6,7 +6,7 @@
 
 .about__me {
 	width: 100%;
-	aspect-ratio:  2/2.6;
+	aspect-ratio:  1/1;
 	border-radius: 2rem;
 	background: linear-gradient(45deg, transparent, var(--primary), transparent);
 	display: grid;
@@ -59,6 +59,15 @@
 	color: var(--light);
 }
 
+.LazyLoad {
+  filter: blur(10px);
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  filter: blur(0);
+}
+
 @media screen and (max-width:  1024px) {
 	.about {
 		grid-template-columns: 1fr;
@@ -87,7 +96,7 @@
 	}
 
 	.about__content {
-		text-align: center;
+		text-align: justify;
 	}
 
 	.about__content p {

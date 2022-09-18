@@ -42,7 +42,7 @@ header {
 	background: linear-gradient(var(--primary), transparent);
 	background-color: #FFFFFF;
 	width: 22rem;
-	height: 30rem;
+	/*height: 30rem;*/
 	position: absolute;
 	left: calc(50% - 11rem);
 	margin-top: 4rem;
@@ -53,6 +53,15 @@ header {
 
 .profile__img {
 	margin-top: -5rem;
+}
+
+.LazyLoad {
+  filter: blur(10px);
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  filter: blur(0);
 }
 
 
@@ -76,6 +85,10 @@ header {
 	}
 	.profile {
 		margin-top: 1rem;
+	}
+	
+	.profile__img {
+		margin-top: 0;
 	}
 }
 

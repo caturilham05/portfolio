@@ -30,7 +30,7 @@
 	position: relative;
 	margin: 15px 0;
 	height: 30px;
-	width: 300px;
+	width: 100%;
 }
 
 .progress__done {
@@ -46,3 +46,47 @@
 	opacity: 0;
 	transition: 1s ease 0.3s;
 }
+
+
+@media screen and (max-width:  1024px) {
+	.experience {
+		grid-template-columns: 1fr;
+	}
+
+	.experience > div {
+		width: 80%;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+
+	.experience__content {
+		padding: 1rem;
+	}
+}
+
+@media screen and (max-width:  600px) {
+	.experience {
+		gap: 1rem;
+	}
+
+	.experience > div {
+		width: 100%;
+		padding: 2rem 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

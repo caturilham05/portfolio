@@ -6,7 +6,7 @@ import other from '../assets/portfolio/other.png'
 
 const datas = [
 	{
-		'title': 'Website Kamera Pengintai',
+		'title': 'Website Kamerapengintai',
 		'url': 'http://www.kamerapengintai.com',
 		'image': kamerapengintai
 	},
@@ -19,16 +19,6 @@ const datas = [
 		'title': 'Website School',
 		'url': 'http://www.school.esoftplay.com',
 		'image': school
-	},
-	{
-		'title': 'Marketplace KP',
-		'url': 'http://front.lara-kamerapengintai.my.id',
-		'image': marketplace
-	},
-	{
-		'title': 'Website Kamera Pengintai',
-		'url': 'http://www.kamerapengintai.com',
-		'image': other
 	},
 ];
 
