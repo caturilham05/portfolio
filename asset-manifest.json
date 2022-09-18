@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2434579e.css",
+    "main.js": "/portfolio/static/js/main.bfd613c6.js",
+    "static/media/me.png": "/portfolio/static/media/me.24da9ff5b076f2a4e244.png",
+    "static/media/kamerapengintai.png": "/portfolio/static/media/kamerapengintai.416fa07e43ac608ddf1c.png",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.46d030a9df38a64b5377.jpg",
+    "static/media/templatebg.jpg": "/portfolio/static/media/templatebg.544a09fd0661074242cd.jpg",
+    "static/media/visilink.png": "/portfolio/static/media/visilink.99e567e15abaa1c6d9ad.png",
+    "static/media/marketplace.png": "/portfolio/static/media/marketplace.2cb76e53b416fe402e05.png",
+    "static/media/school.png": "/portfolio/static/media/school.bc1b6e26771dd7ae47c5.png",
+    "static/media/other.png": "/portfolio/static/media/other.f64567471cf32b71b2a2.png",
+    "static/media/about.jpg": "/portfolio/static/media/about.9185e04c776b71fce31e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.2434579e.css.map": "/portfolio/static/css/main.2434579e.css.map",
+    "main.bfd613c6.js.map": "/portfolio/static/js/main.bfd613c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2434579e.css",
+    "static/js/main.bfd613c6.js"
+  ]
+}
