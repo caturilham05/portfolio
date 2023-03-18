@@ -15,6 +15,11 @@ const datas = [
 		'url': 'http://www.school.esoftplay.com',
 		'image': process.env.PUBLIC_URL + '/assets/portfolio/school.png'
 	},
+	{
+		'title': 'Warehouse Staging',
+		'url': '',
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/staging.png'
+	},
 ];
 
 
