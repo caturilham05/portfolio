@@ -8,7 +8,7 @@ const datas = [
 	{
 		'title': 'Website Visilink',
 		'url': 'http://www.visilink.id',
-		'image': process.env.PUBLIC_URL + 'assets/portfolio/visilink.png'
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/visilink.png'
 	},
 	{
 		'title': 'Website School',
