@@ -1,6 +1,5 @@
 import React from 'react'
 import { useParallax } from 'react-scroll-parallax';
-import AboutImg from '../../assets/about.jpg'
 import './about.css'
 import LazyLoad from 'react-lazy-load';
 
@@ -52,7 +51,7 @@ const About = () => {
 			    <div className="about__me">
 			    	<div className="about__me__img">
 					    <LazyLoad>
-			    			<img src={AboutImg} alt="me" />
+			    			<img src={process.env.PUBLIC_URL + '/assets/about.jpg'} alt="me" />
 					    </LazyLoad>
 			    	</div>
 			    </div>

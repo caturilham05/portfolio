@@ -1,6 +1,5 @@
 import React from 'react'
 import HeaderSocials from './HeaderSocials.jsx'
-import Profile from '../../assets/me.png'
 import './header.css'
 import LazyLoad from 'react-lazy-load';
 
@@ -16,7 +15,7 @@ const Header = () => {
 						<HeaderSocials />
 						<div className="profile">
 					    <LazyLoad>
-								<img src={Profile} alt="profile" className="profile__img"/>
+								<img src={process.env.PUBLIC_URL + '/assets/me.png'} alt="profile" className="profile__img"/>
 					    </LazyLoad>
 						</div>
 					</div>
