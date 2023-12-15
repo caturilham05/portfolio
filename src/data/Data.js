@@ -30,6 +30,11 @@ const datas = [
 		'url': 'https://adexco.id/indexbali?lng=Eng&idEvent=1',
 		'image': process.env.PUBLIC_URL + '/assets/portfolio/adexco.png'
 	},
+	{
+		'title': 'ERP Kamerapengintai',
+		'url': 'https://erp.kamerapengintai.com/',
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/erpkp.png'
+	},
 ];
 
 
