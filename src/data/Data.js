@@ -23,7 +23,7 @@ const datas = [
 	{
 		'title': 'Kabar Berita (KBSNews)',
 		'url': 'http://www.kbsnew.my.id',
-		'image': process.env.PUBLIC_URL + '/assets/portfolio/kbs.png'
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/kbs-home.png'
 	},
 	{
 		'title': 'Adexco 2022',

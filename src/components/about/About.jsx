@@ -51,7 +51,7 @@ const About = () => {
 			    <div className="about__me">
 			    	<div className="about__me__img">
 					    <LazyLoad>
-			    			<img src={process.env.PUBLIC_URL + '/assets/about.jpg'} alt="me" />
+			    			<img src={process.env.PUBLIC_URL + '/assets/menew.jpg'} alt="me"/>
 					    </LazyLoad>
 			    	</div>
 			    </div>
