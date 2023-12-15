@@ -20,6 +20,16 @@ const datas = [
 		'url': '',
 		'image': process.env.PUBLIC_URL + '/assets/portfolio/staging.png'
 	},
+	{
+		'title': 'Kabar Berita (KBSNews)',
+		'url': 'http://www.kbsnew.my.id',
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/kbs.png'
+	},
+	{
+		'title': 'Adexco 2022',
+		'url': 'https://adexco.id/indexbali?lng=Eng&idEvent=1',
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/adexco.png'
+	},
 ];
 
 
