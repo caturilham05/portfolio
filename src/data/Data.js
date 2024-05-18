@@ -96,6 +96,17 @@ const datas = [
 			{'image': process.env.PUBLIC_URL + '/assets/portfolio/obm3.png'},
 		]
 	},
+	{
+		'title': 'Honda Dealer Semarang',
+		'url': 'https://www.hondadealersemarang.com/',
+		'image': process.env.PUBLIC_URL + '/assets/portfolio/hondadealersemarang.png',
+		'description': 'Mengembangkan website company profile pada honda dealer semarang menggunakan laravel',
+		'images': [
+			{'image': process.env.PUBLIC_URL + '/assets/portfolio/hondadealersemarang.png'},
+			{'image': process.env.PUBLIC_URL + '/assets/portfolio/hondadealersemarang1.png'},
+			{'image': process.env.PUBLIC_URL + '/assets/portfolio/hondadealersemarang2.png'},
+		]
+	},
 ];
 
 
